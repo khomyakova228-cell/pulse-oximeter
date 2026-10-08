@@ -1,0 +1,16 @@
+# результаты скрипта
+output/
+# служебные файлы KiCad
+*-backups/
+*.lck
+~*.lck
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-bak
+fp-info-cache
+*.kicad_prl
+# прочее
+__pycache__/
+.DS_Store
+Thumbs.db

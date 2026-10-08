@@ -1,0 +1,3 @@
+[submodule "lib/kicad-gost-lib"]
+	path = lib/kicad-gost-lib
+	url = ../kicad-gost-lib.git
