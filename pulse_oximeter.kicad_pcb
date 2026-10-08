@@ -97,7 +97,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "00b747e6-b3b2-4f34-b623-a12cf3a73484")
 		(at 134.5 70.25)
@@ -341,7 +341,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "03ee83c3-57ac-4b83-8d13-25e502d489ef")
 		(at 90 73.62 90)
@@ -517,7 +517,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "06b9e136-f787-4652-a1df-a8a97680f0d1")
 		(at 79.63 50.5)
@@ -693,7 +693,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-8_W7.62mm"
+	(footprint "GOST_FP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "0728890a-a568-4da4-8a84-882e006cf802")
 		(at 77.805 109.31 180)
@@ -985,7 +985,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "091a2712-c76d-4ab1-9de3-9fe840097b63")
 		(at 114.13 99)
@@ -1161,7 +1161,7 @@
 			)
 		)
 	)
-	(footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+	(footprint "GOST_FP:LQFP-48_7x7mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "0931ff8f-e96c-41aa-9729-d6d082157d83")
 		(at 129.25 64 180)
@@ -2105,7 +2105,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0cbc5830-40db-42e2-a338-bbc01f89fcbd")
 		(at 112 82.87 90)
@@ -2281,7 +2281,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "0de11f43-c7e9-4c19-b0fc-5bc5f6f62c84")
 		(at 106.5 88 180)
@@ -2525,7 +2525,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "105fcdc2-dba6-42fa-8406-e4c2bd590e7c")
 		(at 75.63 97)
@@ -2701,7 +2701,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "1116e35e-9848-4834-80b3-a64e88f49b1f")
 		(at 104.5 117.5)
@@ -2945,7 +2945,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "GOST_FP:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "11cbc56b-d495-4c84-91e4-3e885ec98f46")
 		(at 137.5 102 -90)
@@ -3213,7 +3213,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "125ea5e6-79e8-4df0-bad5-a4dbf8eb9cc3")
 		(at 88 98.63 -90)
@@ -3389,7 +3389,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "GOST_FP:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "1383f3da-2b7d-49e5-b73d-8a66ad255090")
 		(at 101.5 46.46 90)
@@ -3657,7 +3657,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "197ec925-0418-4a95-b926-112eff1bc73c")
 		(at 124.63 102)
@@ -3833,7 +3833,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
+	(footprint "GOST_FP:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "1aed7e37-b98a-47ac-9047-0265345555da")
 		(at 123.46 47.25)
@@ -4128,7 +4128,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1e2c340a-14ba-434a-bfd4-25923b057cef")
 		(at 77 116.87 90)
@@ -4304,7 +4304,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "1fb3eef7-a7dd-4adc-9c92-c6767944af83")
 		(at 123 51 -90)
@@ -4548,7 +4548,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "2094d615-c74e-4d8b-8dfd-0f427df70107")
 		(at 71.5 118 90)
@@ -4792,7 +4792,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH_6mm"
+	(footprint "GOST_FP:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "2953313f-10f4-40a7-be38-5e7cdb1d852d")
 		(at 134.75 80.5 90)
@@ -5141,7 +5141,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2b542b3e-eccc-40a8-856e-e7a0d8c3735e")
 		(at 81.37 46 180)
@@ -5317,7 +5317,7 @@
 			)
 		)
 	)
-	(footprint "OptoDevice:LaserDiode_TO18-D5.6-3"
+	(footprint "GOST_FP:LaserDiode_TO18-D5.6-3"
 		(layer "F.Cu")
 		(uuid "2b5e64da-9fbf-4dd5-b9d8-a6344caf6f8a")
 		(at 79.98 56.49)
@@ -5600,7 +5600,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-8_W7.62mm"
+	(footprint "GOST_FP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "333c26ae-754b-407a-b9a4-510eab7297a3")
 		(at 99.305 101.81 180)
@@ -5892,7 +5892,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "3429b153-cd29-44ea-b648-62d78967a1ec")
 		(at 89 94 180)
@@ -6136,7 +6136,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-8_W7.62mm"
+	(footprint "GOST_FP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "3505488f-0ad5-4512-a5fb-622237f4c9fe")
 		(at 75.06 53.435 180)
@@ -6428,7 +6428,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "375de4d4-ac78-453d-8feb-90569a903eab")
 		(at 92.5 112)
@@ -6672,7 +6672,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH_6mm"
+	(footprint "GOST_FP:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "3cde0265-41ba-4afd-b324-f2b4dac6bb04")
 		(at 128.25 51.5)
@@ -7021,7 +7021,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "3ced6a69-0728-4ec8-bd60-a2a58dfc02d2")
 		(at 91.5 84.5 -90)
@@ -7265,7 +7265,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3d51a66e-3944-4899-b3ed-7bc50e5e3b64")
 		(at 87.33 52)
@@ -7441,7 +7441,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3ec392e2-041e-4fe7-9d6e-d89ae1e6a1c6")
 		(at 138.75 53.33 -90)
@@ -7617,7 +7617,7 @@
 			)
 		)
 	)
-	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+	(footprint "GOST_FP:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3f3ac24f-4d4d-4843-8cca-696302bc23ba")
 		(at 101 84.08 90)
@@ -7965,7 +7965,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "3fe4ce9c-b438-422c-8b14-3db42e30f09c")
 		(at 120 96.5)
@@ -8209,7 +8209,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-16_W7.62mm"
+	(footprint "GOST_FP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "4233b4ec-43ed-4b8a-adb9-c80e2969e8e5")
 		(at 112.88 56.195 -90)
@@ -8588,7 +8588,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "446e76ca-97cb-45f6-bbbb-a6e01e927acb")
 		(at 86 84.5 -90)
@@ -8832,7 +8832,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "44d8ef8c-3aae-47ec-b83e-8689116d2258")
 		(at 104 102 90)
@@ -9076,7 +9076,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "45894268-40b4-475c-8151-785519fe31be")
 		(at 96 76.54 90)
@@ -9252,7 +9252,7 @@
 			)
 		)
 	)
-	(footprint "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
+	(footprint "GOST_FP:Osram_DIL2_4.3x4.65mm_P5.08mm"
 		(layer "F.Cu")
 		(uuid "46b71c4f-616c-49e2-92c6-870e4c0e94a1")
 		(at 136.5 111.54 90)
@@ -9679,7 +9679,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "GOST_FP:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "4874b3ae-180a-4e3c-88ce-64ea41c882c5")
 		(at 84.63 66.38 180)
@@ -9947,7 +9947,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "4aab1d97-2d42-4606-a034-1af180bc156a")
 		(at 121.25 65.75 180)
@@ -10191,7 +10191,7 @@
 			)
 		)
 	)
-	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+	(footprint "GOST_FP:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4b0b9217-072e-46bb-beab-3e9f0b06494f")
 		(at 86.42 46.5)
@@ -10539,7 +10539,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "4db08eab-a4b4-4d8f-9e82-46781d54593c")
 		(at 109.5 102 90)
@@ -10783,7 +10783,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "5065ed15-b470-47c4-90ba-d7089ce09c33")
 		(at 88 109 90)
@@ -11027,7 +11027,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "5355487d-0feb-4cd4-94ed-b7c283f0079b")
 		(at 120 91 180)
@@ -11271,7 +11271,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5c48fbde-ab57-4144-b3c6-733f4fab5eff")
 		(at 94 52)
@@ -11447,7 +11447,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "5f32fecb-42a0-434f-b9e2-f80759b07217")
 		(at 128 117.5)
@@ -11691,7 +11691,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "GOST_FP:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "651420fa-e6ca-4c03-98f6-88529d6ee533")
 		(at 107 46.475)
@@ -11958,7 +11958,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-8_W7.62mm"
+	(footprint "GOST_FP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "6815288e-de31-47bc-881b-ff5a473e8e9c")
 		(at 101.19 112.805 90)
@@ -12250,7 +12250,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "69ea3771-5066-45b8-81ed-66e0feb95233")
 		(at 72.12 63.25 180)
@@ -12426,7 +12426,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH_6mm"
+	(footprint "GOST_FP:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "723a69d3-a553-45bd-b20c-26123b31a170")
 		(at 120.95 69.75 -90)
@@ -12775,7 +12775,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "72b31e41-c74d-4cf4-bfdf-4f13ffdcd868")
 		(at 114 107.5 90)
@@ -13019,7 +13019,7 @@
 			)
 		)
 	)
-	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+	(footprint "GOST_FP:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7a2736d0-d6d3-4480-9232-2a9db5983fda")
 		(at 84.5 81.33 90)
@@ -13367,7 +13367,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-8_W7.62mm"
+	(footprint "GOST_FP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "7cfcb6d5-4373-4f9b-8844-ef755ac4392c")
 		(at 75.06 66.945 -90)
@@ -13659,7 +13659,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "84aa87e2-5d6f-4d6e-a617-d00d0feaf66b")
 		(at 110.87 93.5 180)
@@ -13835,7 +13835,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "84fbf5e5-b247-47a6-8df1-b022a250721c")
 		(at 120 108.63 -90)
@@ -14011,7 +14011,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-8_W7.62mm"
+	(footprint "GOST_FP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "891bcbdb-8bbe-41b9-aec1-019517f0986b")
 		(at 131.81 105.695 -90)
@@ -14303,7 +14303,7 @@
 			)
 		)
 	)
-	(footprint "OptoDevice:LaserDiode_TO18-D5.6-3"
+	(footprint "GOST_FP:LaserDiode_TO18-D5.6-3"
 		(layer "F.Cu")
 		(uuid "8c63cdc5-8f24-4a36-a37a-6f3ee16a7d27")
 		(at 78.75 78 -90)
@@ -14586,7 +14586,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8c79563c-80c4-46db-81fe-fc93a1be81c9")
 		(at 112.5 47.37 90)
@@ -14762,7 +14762,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "8ea04fb1-50d1-4b93-8710-3f9e7e834334")
 		(at 119 117.5)
@@ -15006,7 +15006,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_THT:TO-126-3_Vertical"
+	(footprint "GOST_FP:TO-126-3_Vertical"
 		(layer "F.Cu")
 		(uuid "903f672d-762e-4023-90e8-f553cead55e1")
 		(at 78.75 68.47 -90)
@@ -15301,7 +15301,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "96ff11f8-87df-4096-a3bc-3bed046f0a7e")
 		(at 90 80.25 90)
@@ -15477,7 +15477,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "9afc4af3-60a3-4b96-b049-bb1ba82540b3")
 		(at 116.5 85.5)
@@ -15721,7 +15721,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9de79127-1caa-473e-8301-b3420c55f36b")
 		(at 114.87 117.5 180)
@@ -15897,7 +15897,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "GOST_FP:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "a457bb41-75b0-44f3-8fa9-fd0039e5b911")
 		(at 68.5 90.55 -90)
@@ -16165,7 +16165,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "a7db9600-115a-4e12-b893-2ef5169f8f2c")
 		(at 132.5 91)
@@ -16409,7 +16409,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a9fe2406-b148-4a80-813f-c3822e3df42a")
 		(at 112 76.37 90)
@@ -16585,7 +16585,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "abee233c-898a-4631-9397-afbd719fd77b")
 		(at 132.5 85.5)
@@ -16829,7 +16829,7 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-8_W7.62mm"
+	(footprint "GOST_FP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "b3037130-e43b-48e6-94c0-1607ae762189")
 		(at 73.19 91.805 90)
@@ -17121,7 +17121,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b870270f-f0e2-47f4-9449-0f176defffaf")
 		(at 71 97.37 90)
@@ -17297,7 +17297,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_THT:TO-126-3_Vertical"
+	(footprint "GOST_FP:TO-126-3_Vertical"
 		(layer "F.Cu")
 		(uuid "bb55db28-4343-423e-91cc-fdec3c30a7f4")
 		(at 74.03 57.25 180)
@@ -17592,7 +17592,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "be0713f5-9835-47dc-9c1d-971e885b4e52")
 		(at 130.63 102)
@@ -17768,7 +17768,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "c19b1f2b-6448-406f-9a11-c2aa48fbcc7b")
 		(at 120 100 -90)
@@ -18012,7 +18012,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c26911a8-9358-4598-b38f-16b29a772ac9")
 		(at 138.75 62.88 -90)
@@ -18188,7 +18188,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c934150d-9518-4ef5-ad1b-6c08819dc03b")
 		(at 93.13 117.5)
@@ -18364,7 +18364,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cbfc5c40-3439-4924-a092-60326b2026a4")
 		(at 99.13 117.5)
@@ -18540,7 +18540,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cc98fe02-af27-4c48-91df-fee8c5a224c3")
 		(at 114.87 112 180)
@@ -18716,7 +18716,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "cd155df0-ba99-4d81-a7b1-7cf56db35299")
 		(at 128 96.5)
@@ -18960,7 +18960,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d0980851-d33b-4fd5-899f-9cc133d62388")
 		(at 96.13 90)
@@ -19136,7 +19136,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d1abffbf-9ec9-4354-b737-8ef5406c6daf")
 		(at 92.5 106.5)
@@ -19380,7 +19380,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d20f4bad-6939-459d-8935-1f850621aade")
 		(at 118 47.37 90)
@@ -19556,7 +19556,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d30be1fe-e6c5-445c-980d-b4d961ff1eb6")
 		(at 82.5 98 -90)
@@ -19800,7 +19800,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d6bb529c-d51a-4838-a476-dd23670d1aee")
 		(at 88 112 -90)
@@ -20044,7 +20044,7 @@
 			)
 		)
 	)
-	(footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+	(footprint "GOST_FP:SSOP-28_5.3x10.2mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "d70bdbcf-211b-4c94-91b8-1e7173747ff8")
 		(at 128 76.5)
@@ -20540,7 +20540,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d9b0d694-6129-4cf8-8699-3aaed720f154")
 		(at 82.5 108.87 90)
@@ -20716,7 +20716,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "dfb97cef-f7fa-46e8-887d-0983b90fcb9e")
 		(at 124.5 85.5)
@@ -20960,7 +20960,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "GOST_FP:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "e3019cc8-42ce-4514-8210-5f0826ae3def")
 		(at 106.45 69 180)
@@ -21228,7 +21228,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+	(footprint "GOST_FP:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "e5ae5e70-cd6d-45c7-9b04-72fca0b125c0")
 		(at 100.54 69)
@@ -21496,7 +21496,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e7b0e1f2-80ac-4fa1-acac-10fbe064d708")
 		(at 103.13 93.5)
@@ -21672,7 +21672,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e94090ba-a6c7-49cf-ad0c-b550e4c1b2ce")
 		(at 96 82.87 90)
@@ -21848,7 +21848,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "eca34591-a9b5-47ec-9c02-75699756cefa")
 		(at 82.5 113.63 -90)
@@ -22024,7 +22024,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "efd38cb0-f7fe-4d8a-bb14-02d21547204d")
 		(at 79.12 63.25 180)
@@ -22200,7 +22200,7 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(footprint "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f42e7b3c-54b9-430c-b1c7-0e8ab58ac9d1")
 		(at 119.62 80.25 180)
@@ -22376,7 +22376,7 @@
 			)
 		)
 	)
-	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+	(footprint "GOST_FP:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f68b02ef-a376-4a25-932a-eccf1333dd3d")
 		(at 107.08 84.08 90)
@@ -22724,7 +22724,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "f8fc5b4d-c074-4cb5-96ae-bc2ff822ee86")
 		(at 111 52.5)
@@ -22968,7 +22968,7 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+	(footprint "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "fa248eca-e0bf-4caa-94b8-200dbf624c7d")
 		(at 128 91 180)

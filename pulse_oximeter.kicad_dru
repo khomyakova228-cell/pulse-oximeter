@@ -1,0 +1,33 @@
+(version 1)
+# Технологические возможности завода «Резонит»: одно- и двусторонние платы,
+# класс «Стандарт» (4 класс точности), медь 35 мкм.
+# Источник: https://www.rezonit.ru/pcb/odnostoronnie-i-dvustoronnie/serial/
+
+(rule "Резонит: ширина проводника >= 0,2 мм"
+  (constraint track_width (min 0.2mm)))
+
+(rule "Резонит: зазор медь-медь >= 0,2 мм"
+  (constraint clearance (min 0.2mm)))
+
+(rule "Резонит: металлизированное отверстие >= 0,3 мм"
+  (constraint hole_size (min 0.3mm)))
+
+(rule "Резонит: неметаллизированное отверстие >= 0,5 мм"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
+  (constraint hole_size (min 0.5mm)))
+
+(rule "Резонит: поясок контактной площадки >= 0,2 мм"
+  (condition "A.Type == 'Pad'")
+  (constraint annular_width (min 0.2mm)))
+
+(rule "Резонит: поясок переходного отверстия >= 0,15 мм"
+  (condition "A.Type == 'Via'")
+  (constraint annular_width (min 0.15mm)))
+
+(rule "Резонит: медь до края платы >= 0,4 мм (скрайбирование; фрезеровка — 0,25 мм)"
+  (constraint edge_clearance (min 0.4mm)))
+
+(rule "Резонит: маркировка — высота >= 1,0 мм, линия >= 0,15 мм"
+  (layer "?.Silkscreen")
+  (constraint text_height (min 1.0mm))
+  (constraint text_thickness (min 0.15mm)))
