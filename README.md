@@ -529,90 +529,6 @@ pulse-oximeter/
 кэш (`fp-info-cache`), личные настройки (`*.kicad_prl`) и папку `output/`. `.gitattributes` задаёт
 окончания строк: LF для `.sh` и файлов KiCad, CRLF для `.bat`.
 
-### 5.2. Публикация на GitHub
-
-Нужны **два публичных репозитория в одном аккаунте**: `kicad-gost-lib` (библиотека) и
-`pulse-oximeter` (проект). Адрес сабмодуля относительный (`../kicad-gost-lib.git`), поэтому GitHub
-сам найдёт библиотеку рядом с проектом. Через веб-интерфейс GitHub (кнопка *Upload files*) сабмодуль
-загрузить нельзя, поэтому отправка делается из Git Bash.
-
-**Шаг 1. Аккаунт и Git.**
-
-1. Зарегистрироваться на <https://github.com> (*Sign up*): почта, пароль, логин. Логин станет частью
-   адреса: `https://github.com/<логин>`.
-2. Установить Git для Windows: <https://git-scm.com/download/win>. Все настройки установщика
-   оставить по умолчанию. Вместе с Git ставятся **Git Bash** (терминал) и **Git Credential Manager**
-   (вход в GitHub через браузер).
-3. Открыть Git Bash (*Пуск → Git Bash*) и один раз указать имя и почту для коммитов:
-
-   ```bash
-   git config --global user.name  "Хомякова А.А."
-   git config --global user.email "почта, указанная на GitHub"
-   ```
-
-**Шаг 2. Пустые репозитории на GitHub.**
-
-1. На GitHub: **+** (справа вверху) → *New repository*.
-2. *Repository name*: `kicad-gost-lib`, *Description*: «УГО и посадочные места по ГОСТ для KiCad»,
-   выбрать **Public**. Галочки *Add a README file*, *.gitignore*, *license* **не ставить**
-   (репозиторий должен быть пустым). *Create repository*.
-3. Так же создать второй: `pulse-oximeter`, описание «Пульсоксиметр — ДЗ САПР ЭС, KiCad 10», Public,
-   без галочек.
-
-**Шаг 3. Отправить библиотеку.** Распаковать архив, например, в `C:\SAPR`. В Git Bash:
-
-```bash
-cd /c/SAPR/kicad-gost-lib
-git remote remove origin 2>/dev/null
-git remote add origin https://github.com/<логин>/kicad-gost-lib.git
-git push -u origin main
-```
-
-При первом `git push` откроется окно входа в GitHub: *Sign in with your browser* → *Authorize*.
-
-**Шаг 4. Отправить проект.**
-
-```bash
-cd /c/SAPR/pulse-oximeter
-git remote remove origin 2>/dev/null
-git remote add origin https://github.com/<логин>/pulse-oximeter.git
-git submodule sync                    # адрес сабмодуля -> https://github.com/<логин>/kicad-gost-lib.git
-git -C lib/kicad-gost-lib fetch       # проверка: сабмодуль видит библиотеку на GitHub
-git push -u origin main
-```
-
-**Шаг 5. Проверка.**
-
-1. Открыть `https://github.com/<логин>/pulse-oximeter`: видны файлы проекта и `README.md`
-   (GitHub показывает его под списком файлов как страницу отчёта).
-2. Папка `lib` → `kicad-gost-lib @ f160942` — это ссылка на коммит библиотеки; щелчок по ней
-   открывает репозиторий `kicad-gost-lib`.
-3. Проверочное клонирование «с нуля» в другую папку:
-
-   ```bash
-   git clone --recursive https://github.com/<логин>/pulse-oximeter.git test-clone
-   cd test-clone && scripts/build.sh      # или scripts\build.bat в cmd
-   ```
-
-**Шаг 6. Персональная страница.** На странице профиля `https://github.com/<логин>` →
-*Customize your pins* → отметить `pulse-oximeter` и `kicad-gost-lib` → *Save pins*. Оба репозитория
-будут показаны на главной странице профиля. Ссылку на `https://github.com/<логин>/pulse-oximeter`
-отправить преподавателю вместе с `README.pdf`.
-
-**Дальнейшая работа.** Проект открывается в KiCad из папки репозитория (`pulse_oximeter.kicad_pro`).
-После изменений:
-
-```bash
-git add -A
-git commit -m "Что изменено"
-git push
-```
-
-Если менялась сама библиотека: сначала коммит и `git push` в папке `lib/kicad-gost-lib`, затем в
-папке проекта `git add lib/kicad-gost-lib`, `git commit -m "Обновлена библиотека"`, `git push`.
-
-Отчёт `README.pdf` получен из этого файла `README.md`.
-
 ## Заключение: выполнение пунктов задания
 
 <p class="caption tcap">Таблица 13 — Выполнение пунктов задания</p>
@@ -627,5 +543,12 @@ git push
 | 2. Manufacturer_Part_Number | поля компонентов, BOM | заполнено у всех компонентов (таблица 8) |
 | 3. Плата, «Резонит», DFMA | `pulse_oximeter.kicad_pcb`, `.kicad_dru` | DRC по нормам «Резонит»: 0 ошибок, 0 неразведённых соединений |
 | 4. Скрипт bash / bat | `scripts/build.sh`, `scripts/build.bat` | ERC (0 ошибок), DRC (0 ошибок), Gerber + сверловка, BOM, PDF схемы, STEP |
-| Git и GitHub | репозитории `pulse-oximeter`, `kicad-gost-lib` | инструкция в разделе 5.2 |
+| Git и GitHub | репозитории `pulse-oximeter`, `kicad-gost-lib` | проект и библиотека в git, библиотека подключена сабмодулем |
 | Отчёт | `README.md`, `README.pdf` | этот документ |
+
+Все пункты задания выполнены: библиотека УГО и посадочных мест по ГОСТ подключена к проекту
+git-сабмодулем с относительными путями; схема оформлена по ГОСТ, важные цепи описаны в классах
+цепей, у всех компонентов заполнен `Manufacturer_Part_Number`; плата разведена с учётом
+технологических возможностей завода «Резонит» и проходит DRC без ошибок; скрипты `build.bat` и
+`build.sh` выполняют ERC, DRC, выпуск Gerber-файлов, BOM и PDF схемы; проект размещён в
+git-репозитории, отчёт — PDF-версия файла `README.md`.
