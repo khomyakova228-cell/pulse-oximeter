@@ -15,860 +15,6 @@
 		(comment 9 "Группа БМТ2-31М")
 	)
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "HL2"
-				(at -0.3174 -3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "LED"
-				(at -2.8574 -3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "OptoDevice:LaserDiode_TO18-D5.6-3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -4.318 -0.762) (xy -5.842 -2.286) (xy -5.08 -2.286) (xy -5.842 -2.286) (xy -5.842 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -2.032) (xy -4.572 -3.556) (xy -3.81 -3.556) (xy -4.572 -3.556) (xy -4.572 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8398)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:ZYxxx"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZYxxx"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/zy1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2000mW Zener Diode, DO-41"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ZYxxx_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ZYxxx_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GOST_UGO:Conn_1x03"
 			(pin_numbers
 				(hide yes)
@@ -4022,656 +3168,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "HL1"
-				(at -0.3174 -3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "LED"
-				(at -2.8574 -3.81 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "OptoDevice:LaserDiode_TO18-D5.6-3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_1_0_1"
-				(polyline
-					(pts
-						(xy -4.318 -2.032) (xy -5.842 -3.556) (xy -5.08 -3.556) (xy -5.842 -3.556) (xy -5.842 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -2.032) (xy -4.572 -3.556) (xy -3.81 -3.556) (xy -4.572 -3.556) (xy -4.572 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8398)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Sensor_Optical:BPW34"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "VD1"
-				(at -2.1972 5.08 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BPW34"
-				(at 0.3428 5.08 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/81521/bpw34.pdf"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Silicon PIN Photodiode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "opto PIN photodiode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Osram*DIL2*4.3x4.65mm*P5.08*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BPW34_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 2.8398)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 5.842) (xy 0.508 4.318) (xy 0.508 4.826) (xy 0.508 4.318) (xy 1.016 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy 2.286 3.556) (xy 2.286 4.064) (xy 2.286 3.556) (xy 2.794 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BPW34_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BD235"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BD235"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Micro%20Commercial%20PDFs/BD233,235,237.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "2A Ic, 60V Vce, Low Voltage Transistor, TO-126"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Low Voltage Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?126*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BD235_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BD235_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -4950,121 +3446,195 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+		(symbol "GOST_UGO:C"
+		    (pin_numbers (hide yes))
+		    (pin_names (offset 0.762) (hide yes))
+		    (exclude_from_sim no)
+		    (in_bom yes) (on_board yes)
+		    (property "Reference" "C" (at 2.54 1.27 0) (effects (font (size 2.5 2.5)) (justify left)))
+		    (property "Value" "C" (at 2.54 -1.27 0) (effects (font (size 2.5 2.5)) (justify left)))
+		    (property "Footprint" "GOST_FP:C_Disc_D5.1mm_W3.2mm_P5.00mm" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Конденсатор постоянной ёмкости (ГОСТ 2.728)" (at 0 -8.89 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "конденсатор capacitor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "C_0_1"
+		      (polyline (pts (xy -2.032 0.381) (xy 2.032 0.381)) (stroke (width 0.508) (type default)) (fill (type none)))
+		      (polyline (pts (xy -2.032 -0.381) (xy 2.032 -0.381)) (stroke (width 0.508) (type default)) (fill (type none)))
+		    )
+		    (symbol "C_1_1"
+		      (pin passive line (at 0 3.81 270) (length 3.429) (name "" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 0 -3.81 90) (length 3.429) (name "" (effects (font (size 1.8 1.8)))) (number "2" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
+		(symbol "GOST_UGO:D_Zener"
+		    (pin_numbers (hide yes))
+		    (pin_names (offset 0.762) (hide yes))
+		    (exclude_from_sim no)
+		    (in_bom yes) (on_board yes)
+		    (property "Reference" "VD" (at 0 2.54 0) (effects (font (size 2.5 2.5))))
+		    (property "Value" "D_Zener" (at 0 -2.54 0) (effects (font (size 2.5 2.5))))
+		    (property "Footprint" "GOST_FP:D_DO-41_SOD81_P10.16mm_Horizontal" (at 0 -5.08 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -7.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Стабилитрон (ГОСТ 2.730)" (at 0 -10.16 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "стабилитрон zener" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "D_Zener_0_1"
+		      (polyline (pts (xy 1.1 1.27) (xy 1.1 -1.27) (xy -1.1 0) (xy 1.1 1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -1.1 1.27) (xy -1.1 -1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -1.27 0) (xy -1.1 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 1.1 0) (xy 1.27 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -1.1 1.27) (xy -0.35 1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		    )
+		    (symbol "D_Zener_1_1"
+		      (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1.8 1.8)))) (number "2" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
+		(symbol "GOST_UGO:GND"
+		    (power)
+		    (pin_names (offset 0))
+		    (exclude_from_sim no)
+		    (in_bom no) (on_board no)
+		    (property "Reference" "#PWR" (at 0 -3.81 0) (effects (font (size 2.5 2.5)) (hide yes)))
+		    (property "Value" "GND" (at 0 -2.54 0) (effects (font (size 2.5 2.5)) (hide yes)))
+		    (property "Footprint" "" (at 0 -5.08 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -7.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Общий провод (соединение с корпусом), ГОСТ 2.721" (at 0 -10.16 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "общий провод корпус GND ground" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "GND_0_1"
+		      (polyline (pts (xy 0 0) (xy 0 -1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -1.524 -1.27) (xy 1.524 -1.27)) (stroke (width 0.508) (type default)) (fill (type none)))
+		    )
+		    (symbol "GND_1_1"
+		      (pin power_in line (at 0 0 270) (length 0) (hide yes) (name "GND" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
+		(symbol "GOST_UGO:LED"
+		    (pin_numbers (hide yes))
+		    (pin_names (offset 0.762) (hide yes))
+		    (exclude_from_sim no)
+		    (in_bom yes) (on_board yes)
+		    (property "Reference" "HL" (at 0 -3.81 0) (effects (font (size 2.5 2.5))))
+		    (property "Value" "LED" (at 0 -5.588 0) (effects (font (size 2.5 2.5))))
+		    (property "Footprint" "GOST_FP:LaserDiode_TO18-D5.6-3" (at 0 -8.128 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -10.668 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Светодиод (ГОСТ 2.730)" (at 0 -13.208 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "светодиод LED" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "LED_0_1"
+		      (circle (center 0 0) (radius 2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 1.1 1.27) (xy 1.1 -1.27) (xy -1.1 0) (xy 1.1 1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -1.1 1.27) (xy -1.1 -1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -1.27 0) (xy -1.1 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 1.1 0) (xy 1.27 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -0.508 1.778) (xy 0.9415 3.2275)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 1.4719 3.7579) (xy 0.7294 3.4397) (xy 1.1537 3.0154) (xy 1.4719 3.7579)) (stroke (width 0.1) (type default)) (fill (type outline)))
+		      (polyline (pts (xy 0.889 1.397) (xy 2.3385 2.8465)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 2.8689 3.3769) (xy 2.1264 3.0587) (xy 2.5507 2.6344) (xy 2.8689 3.3769)) (stroke (width 0.1) (type default)) (fill (type outline)))
+		    )
+		    (symbol "LED_1_1"
+		      (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1.8 1.8)))) (number "2" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
+		(symbol "GOST_UGO:Photodiode"
+		    (pin_numbers (hide yes))
+		    (pin_names (offset 0.762) (hide yes))
+		    (exclude_from_sim no)
+		    (in_bom yes) (on_board yes)
+		    (property "Reference" "VD" (at -1.27 -3.81 0) (effects (font (size 2.5 2.5))))
+		    (property "Value" "Photodiode" (at -1.27 -5.588 0) (effects (font (size 2.5 2.5))))
+		    (property "Footprint" "GOST_FP:Osram_DIL2_4.3x4.65mm_P5.08mm" (at 0 -8.128 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -10.668 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Фотодиод (ГОСТ 2.730)" (at 0 -13.208 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "фотодиод photodiode PIN" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "Photodiode_0_1"
+		      (circle (center -1.27 0) (radius 2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 0 1.27) (xy 0 -1.27) (xy -2.2 0) (xy 0 1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -2.2 1.27) (xy -2.2 -1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -2.54 0) (xy -2.2 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 0.349 3.905) (xy -1.1207 2.4353)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -1.651 1.905) (xy -0.9085 2.2232) (xy -1.3328 2.6475) (xy -1.651 1.905)) (stroke (width 0.1) (type default)) (fill (type outline)))
+		      (polyline (pts (xy 1.746 3.651) (xy 0.2763 2.1813)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy -0.254 1.651) (xy 0.4885 1.9692) (xy 0.0642 2.3935) (xy -0.254 1.651)) (stroke (width 0.1) (type default)) (fill (type outline)))
+		    )
+		    (symbol "Photodiode_1_1"
+		      (pin passive line (at -5.08 0 0) (length 2.54) (name "K" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 2.54 0 180) (length 2.54) (name "A" (effects (font (size 1.8 1.8)))) (number "2" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
+		(symbol "GOST_UGO:Q_NPN"
+		    (pin_numbers (hide yes))
+		    (pin_names (offset 0.762) (hide yes))
+		    (exclude_from_sim no)
+		    (in_bom yes) (on_board yes)
+		    (property "Reference" "VT" (at 5.08 1.27 0) (effects (font (size 2.5 2.5)) (justify left)))
+		    (property "Value" "Q_NPN" (at 5.08 -1.27 0) (effects (font (size 2.5 2.5)) (justify left)))
+		    (property "Footprint" "GOST_FP:TO-126-3_Vertical" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Транзистор n-p-n (ГОСТ 2.730); выводы 1-Э, 2-К, 3-Б" (at 0 -8.89 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "транзистор npn BJT" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "Q_NPN_0_1"
+		      (circle (center 1.27 0) (radius 3) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 0 2.25) (xy 0 -2.25)) (stroke (width 0.508) (type default)) (fill (type none)))
+		      (polyline (pts (xy -2.54 0) (xy 0 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 0 1.074) (xy 2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 0 -1.074) (xy 2.54 -2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 1.9052 -2.174) (xy 1.3624 -1.5142) (xy 1.0624 -2.0338) (xy 1.9052 -2.174)) (stroke (width 0.1) (type default)) (fill (type outline)))
+		    )
+		    (symbol "Q_NPN_1_1"
+		      (pin passive line (at 2.54 -5.08 90) (length 2.54) (name "E" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 2.54 5.08 270) (length 2.54) (name "C" (effects (font (size 1.8 1.8)))) (number "2" (effects (font (size 1.27 1.27)))))
+		      (pin input line (at -5.08 0 0) (length 2.54) (name "B" (effects (font (size 1.8 1.8)))) (number "3" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
+		(symbol "GOST_UGO:R"
+		    (pin_numbers (hide yes))
+		    (pin_names (offset 0.762) (hide yes))
+		    (exclude_from_sim no)
+		    (in_bom yes) (on_board yes)
+		    (property "Reference" "R" (at 2.54 1.27 0) (effects (font (size 2.5 2.5)) (justify left)))
+		    (property "Value" "R" (at 2.54 -1.27 0) (effects (font (size 2.5 2.5)) (justify left)))
+		    (property "Footprint" "GOST_FP:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Резистор постоянный (ГОСТ 2.728)" (at 0 -8.89 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "резистор resistor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "R_0_1"
+		      (rectangle (start -1.016 2.54) (end 1.016 -2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+		    )
+		    (symbol "R_1_1"
+		      (pin passive line (at 0 3.81 270) (length 1.27) (name "" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 0 -3.81 90) (length 1.27) (name "" (effects (font (size 1.8 1.8)))) (number "2" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
+		(symbol "GOST_UGO:R_Trim"
+		    (pin_numbers (hide yes))
+		    (pin_names (offset 0.762) (hide yes))
+		    (exclude_from_sim no)
+		    (in_bom yes) (on_board yes)
+		    (property "Reference" "R" (at -2.54 1.27 0) (effects (font (size 2.5 2.5)) (justify right)))
+		    (property "Value" "R_Trim" (at -2.54 -1.27 0) (effects (font (size 2.5 2.5)) (justify right)))
+		    (property "Footprint" "GOST_FP:Potentiometer_Bourns_3296W_Vertical" (at 0 -3.81 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Datasheet" "" (at 0 -6.35 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "Description" "Резистор подстроечный (ГОСТ 2.728)" (at 0 -8.89 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (property "ki_keywords" "резистор подстроечный trimmer" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		    (symbol "R_Trim_0_1"
+		      (rectangle (start -1.016 2.54) (end 1.016 -2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 2.54 0) (xy 1.27 0)) (stroke (width 0.254) (type default)) (fill (type none)))
+		      (polyline (pts (xy 1.27 0.762) (xy 1.27 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+		    )
+		    (symbol "R_Trim_1_1"
+		      (pin passive line (at 0 3.81 270) (length 1.27) (name "1" (effects (font (size 1.8 1.8)))) (number "1" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 3.81 0 180) (length 1.27) (name "2" (effects (font (size 1.8 1.8)))) (number "2" (effects (font (size 1.27 1.27)))))
+		      (pin passive line (at 0 -3.81 90) (length 1.27) (name "3" (effects (font (size 1.8 1.8)))) (number "3" (effects (font (size 1.27 1.27)))))
+		    )
+		    (embedded_fonts no)
+		  )
 	)
 	(junction
 		(at 254 62.23)
@@ -10438,7 +9008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 267.97 199.39 90)
 		(unit 1)
 		(body_style 1)
@@ -10618,7 +9188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 260.35 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -10797,8 +9367,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_1")
-		(lib_id "Device:LED")
+		(lib_id "GOST_UGO:LED")
 		(at 95.25 41.91 90)
 		(unit 1)
 		(body_style 1)
@@ -10913,7 +9482,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 193.04 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -10937,6 +9506,7 @@
 		)
 		(property "Value" "GND"
 			(at 193.04 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11068,85 +9638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 91.44 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05e1d271-0322-43c8-845d-f9212319ce3a")
-		(property "Reference" "#PWR0102"
-			(at 95.25 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В13"
-			(at 89.154 161.544 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 91.44 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ccfaddf-07a1-4875-8919-792038ef4b6e")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Optical:BPW34")
+		(lib_id "GOST_UGO:Photodiode")
 		(at 166.37 66.04 270)
 		(unit 1)
 		(body_style 1)
@@ -11251,84 +9743,6 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 364.49 142.24 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06e09e3c-8fe3-4c16-aa90-01701057e75b")
-		(property "Reference" "#PWR079"
-			(at 360.68 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Г"
-			(at 367.284 141.224 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 364.49 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "837daddc-c493-4e95-95fd-ae5ef65c4f28")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
 		(at 247.65 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -11405,7 +9819,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 63.5 226.06 90)
 		(unit 1)
 		(body_style 1)
@@ -11506,7 +9920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 394.97 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -11530,6 +9944,7 @@
 		)
 		(property "Value" "GND"
 			(at 394.97 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11663,7 +10078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 82.55 233.68 0)
 		(unit 1)
 		(body_style 1)
@@ -11767,7 +10182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 314.96 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -11871,7 +10286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 144.78 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -11895,6 +10310,7 @@
 		)
 		(property "Value" "GND"
 			(at 144.78 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11949,7 +10365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 95.25 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -12155,7 +10571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 325.12 64.77 90)
 		(unit 1)
 		(body_style 1)
@@ -12256,7 +10672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 199.39 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -12280,6 +10696,7 @@
 		)
 		(property "Value" "GND"
 			(at 199.39 166.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12680,7 +11097,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 295.91 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -12704,6 +11121,7 @@
 		)
 		(property "Value" "GND"
 			(at 295.91 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13034,7 +11452,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 171.45 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -13216,7 +11634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 297.18 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -13239,6 +11657,7 @@
 		)
 		(property "Value" "GND"
 			(at 299.974 45.974 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13293,7 +11712,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 283.21 128.27 90)
 		(unit 1)
 		(body_style 1)
@@ -13394,7 +11813,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
+		(lib_id "GOST_UGO:R_Trim")
 		(at 80.01 102.87 180)
 		(unit 1)
 		(body_style 1)
@@ -13502,7 +11921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 269.24 222.25 90)
 		(unit 1)
 		(body_style 1)
@@ -13723,85 +12142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 364.49 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "223ede5d-c0d2-431b-ba28-f66f8669f2f3")
-		(property "Reference" "#PWR080"
-			(at 360.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Д"
-			(at 367.284 143.764 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 364.49 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d9ac7bf-c4fa-4103-9612-ce6b8c7fcfa8")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 82.55 203.2 0)
 		(unit 1)
 		(body_style 1)
@@ -13825,6 +12166,7 @@
 		)
 		(property "Value" "GND"
 			(at 82.55 208.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13879,7 +12221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 80.01 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -14060,7 +12402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 80.01 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -14084,6 +12426,7 @@
 		)
 		(property "Value" "GND"
 			(at 80.01 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14138,7 +12481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 143.51 222.25 0)
 		(unit 1)
 		(body_style 1)
@@ -14162,6 +12505,7 @@
 		)
 		(property "Value" "GND"
 			(at 143.51 227.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14216,7 +12560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 187.96 86.36 180)
 		(unit 1)
 		(body_style 1)
@@ -14320,7 +12664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 322.58 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -14424,85 +12768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 91.44 154.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2fb20c42-d692-4c1a-b288-19d3fa2e706e")
-		(property "Reference" "#PWR099"
-			(at 95.25 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В2"
-			(at 88.138 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 91.44 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "946d19e9-a4f7-4a2b-904f-30f092f06fc8")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 264.16 234.95 0)
 		(unit 1)
 		(body_style 1)
@@ -14526,6 +12792,7 @@
 		)
 		(property "Value" "GND"
 			(at 264.16 240.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14580,7 +12847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "GOST_UGO:LED")
 		(at 140.97 69.85 90)
 		(unit 1)
 		(body_style 1)
@@ -14773,7 +13040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 208.28 135.89 90)
 		(unit 1)
 		(body_style 1)
@@ -15029,7 +13296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 140.97 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -15052,6 +13319,7 @@
 		)
 		(property "Value" "GND"
 			(at 141.224 110.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15106,7 +13374,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 215.9 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -15210,7 +13478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 82.55 254 0)
 		(unit 1)
 		(body_style 1)
@@ -15234,6 +13502,7 @@
 		)
 		(property "Value" "GND"
 			(at 82.55 259.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15288,7 +13557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 204.47 30.48 90)
 		(unit 1)
 		(body_style 1)
@@ -15389,7 +13658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 254 53.34 180)
 		(unit 1)
 		(body_style 1)
@@ -15493,7 +13762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 157.48 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -15594,85 +13863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 364.49 149.86 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45db143f-6a9a-41be-bb34-b881e1dd27be")
-		(property "Reference" "#PWR082"
-			(at 360.68 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Ж"
-			(at 367.284 148.844 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 364.49 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea205894-73c0-4596-bd1c-3031056a890e")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 198.12 86.36 180)
 		(unit 1)
 		(body_style 1)
@@ -15855,7 +14046,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 378.46 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -15959,7 +14150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 82.55 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -16063,7 +14254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 394.97 59.69 180)
 		(unit 1)
 		(body_style 1)
@@ -16167,7 +14358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 378.46 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -16191,6 +14382,7 @@
 		)
 		(property "Value" "GND"
 			(at 378.46 105.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16245,7 +14437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 140.97 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -16349,7 +14541,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 280.67 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -16453,7 +14645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 292.1 160.02 180)
 		(unit 1)
 		(body_style 1)
@@ -16556,7 +14748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 152.4 146.05 90)
 		(unit 1)
 		(body_style 1)
@@ -16657,85 +14849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 311.15 200.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a6e94bc-5a58-42a2-8295-d34039765c78")
-		(property "Reference" "#PWR086"
-			(at 314.96 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В12"
-			(at 308.864 199.644 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 311.15 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16abbc37-8a20-4e29-ad5a-6accd02a522d")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 292.1 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -16758,6 +14872,7 @@
 		)
 		(property "Value" "GND"
 			(at 290.322 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16812,7 +14927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 323.85 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -16913,7 +15028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 55.88 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -17017,7 +15132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 295.91 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -17121,7 +15236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 130.81 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -17222,7 +15337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ZYxxx")
+		(lib_id "GOST_UGO:D_Zener")
 		(at 71.12 232.41 270)
 		(unit 1)
 		(body_style 1)
@@ -17326,7 +15441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 151.13 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -17427,85 +15542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 311.15 175.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68071655-f6ba-4d0d-9956-9a5e0c98260b")
-		(property "Reference" "#PWR084"
-			(at 314.96 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В2"
-			(at 307.848 175.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 311.15 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3f3b4d9-8b72-4abd-bfe3-fa0192c2c800")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 81.28 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -17529,6 +15566,7 @@
 		)
 		(property "Value" "GND"
 			(at 81.28 160.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17583,7 +15621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 294.64 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -17686,7 +15724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 312.42 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -17790,7 +15828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
+		(lib_id "GOST_UGO:R_Trim")
 		(at 189.23 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -18029,7 +16067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 176.53 212.09 0)
 		(unit 1)
 		(body_style 1)
@@ -18211,7 +16249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 199.39 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -18234,6 +16272,7 @@
 		)
 		(property "Value" "GND"
 			(at 199.644 133.604 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18288,7 +16327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 162.56 269.24 0)
 		(unit 1)
 		(body_style 1)
@@ -18312,6 +16351,7 @@
 		)
 		(property "Value" "GND"
 			(at 162.56 274.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18444,7 +16484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 81.28 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -18548,7 +16588,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 219.71 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -18571,6 +16611,7 @@
 		)
 		(property "Value" "GND"
 			(at 222.504 134.874 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18702,7 +16743,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 238.76 251.46 0)
 		(unit 1)
 		(body_style 1)
@@ -18726,6 +16767,7 @@
 		)
 		(property "Value" "GND"
 			(at 238.76 256.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18780,7 +16822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 311.15 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -18881,7 +16923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 246.38 62.23 90)
 		(unit 1)
 		(body_style 1)
@@ -18982,7 +17024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 101.6 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -19086,7 +17128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 279.4 207.01 0)
 		(unit 1)
 		(body_style 1)
@@ -19448,7 +17490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 142.24 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -19552,85 +17594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 364.49 147.32 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8cec46e9-483e-4c9b-a6cd-b2e88faaa6b0")
-		(property "Reference" "#PWR081"
-			(at 360.68 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Е"
-			(at 367.284 146.304 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 364.49 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b59722a-27bb-4cd0-84ca-1430808cea51")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 149.86 219.71 90)
 		(unit 1)
 		(body_style 1)
@@ -19731,7 +17695,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 389.89 80.01 180)
 		(unit 1)
 		(body_style 1)
@@ -19992,7 +17956,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 269.24 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -20016,6 +17980,7 @@
 		)
 		(property "Value" "GND"
 			(at 269.24 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20070,7 +18035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 307.34 64.77 90)
 		(unit 1)
 		(body_style 1)
@@ -20171,7 +18136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
+		(lib_id "GOST_UGO:R_Trim")
 		(at 81.28 146.05 180)
 		(unit 1)
 		(body_style 1)
@@ -20279,7 +18244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
+		(lib_id "GOST_UGO:R_Trim")
 		(at 82.55 194.31 180)
 		(unit 1)
 		(body_style 1)
@@ -20387,7 +18352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 143.51 173.99 0)
 		(unit 1)
 		(body_style 1)
@@ -20411,6 +18376,7 @@
 		)
 		(property "Value" "GND"
 			(at 143.51 179.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20663,7 +18629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 317.5 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -20687,6 +18653,7 @@
 		)
 		(property "Value" "GND"
 			(at 317.5 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20741,7 +18708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 165.1 165.1 90)
 		(unit 1)
 		(body_style 1)
@@ -20919,7 +18886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 262.89 214.63 0)
 		(unit 1)
 		(body_style 1)
@@ -20943,6 +18910,7 @@
 		)
 		(property "Value" "GND"
 			(at 262.89 219.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21152,7 +19120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 199.39 156.21 180)
 		(unit 1)
 		(body_style 1)
@@ -21256,7 +19224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 280.67 160.02 180)
 		(unit 1)
 		(body_style 1)
@@ -21360,7 +19328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 199.39 124.46 180)
 		(unit 1)
 		(body_style 1)
@@ -21464,7 +19432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 101.6 76.2 180)
 		(unit 1)
 		(body_style 1)
@@ -21488,6 +19456,7 @@
 		)
 		(property "Value" "GND"
 			(at 101.6 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21542,7 +19511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 219.71 50.8 180)
 		(unit 1)
 		(body_style 1)
@@ -21844,7 +19813,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 265.43 82.55 180)
 		(unit 1)
 		(body_style 1)
@@ -22027,7 +19996,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 278.13 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -22051,6 +20020,7 @@
 		)
 		(property "Value" "GND"
 			(at 278.13 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22105,7 +20075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 267.97 160.02 180)
 		(unit 1)
 		(body_style 1)
@@ -22209,7 +20179,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 247.65 167.64 180)
 		(unit 1)
 		(body_style 1)
@@ -22313,7 +20283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 60.96 83.82 90)
 		(unit 1)
 		(body_style 1)
@@ -22414,7 +20384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 269.24 123.19 180)
 		(unit 1)
 		(body_style 1)
@@ -22518,85 +20488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 311.15 203.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8ad5bb1-1453-42b4-a680-f0e538d5e878")
-		(property "Reference" "#PWR087"
-			(at 314.96 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В13"
-			(at 308.864 202.184 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 311.15 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90cdce60-ee13-4383-a8a8-a88f46b22040")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 292.1 81.28 180)
 		(unit 1)
 		(body_style 1)
@@ -22700,7 +20592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
+		(lib_id "GOST_UGO:R_Trim")
 		(at 82.55 245.11 180)
 		(unit 1)
 		(body_style 1)
@@ -22885,85 +20777,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 364.49 154.94 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbf8c532-44c7-45b1-be9f-0ca81d382825")
-		(property "Reference" "#PWR083"
-			(at 360.68 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "З"
-			(at 367.284 153.924 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 364.49 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e054f626-8b85-4f3f-bbad-51652b4b5133")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 204.47 39.37 90)
 		(unit 1)
 		(body_style 1)
@@ -23064,7 +20878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 215.9 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -23088,6 +20902,7 @@
 		)
 		(property "Value" "GND"
 			(at 215.9 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23136,83 +20951,6 @@
 			(project "pulse_oximeter"
 				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 262.89 129.54 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c66c2563-98b5-4772-a0ca-bf1c781a81c8")
-		(property "Reference" "#PWR095"
-			(at 259.08 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Г"
-			(at 266.7 129.286 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 262.89 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4a28488-20d7-4f61-ac69-195dd65752d2")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -23375,84 +21113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 91.44 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb9ead21-4531-4cb6-8ac9-1b2f9ecbdf92")
-		(property "Reference" "#PWR0100"
-			(at 95.25 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В10"
-			(at 89.408 156.464 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 91.44 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5fdc8b40-8d31-4969-88c4-2e7c57093d36")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GOST_UGO:KR590KN2")
 		(at 115.57 152.4 0)
 		(unit 1)
@@ -23596,7 +21256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 154.94 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -23620,6 +21280,7 @@
 		)
 		(property "Value" "GND"
 			(at 154.94 172.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23674,7 +21335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 175.26 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -23775,7 +21436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 95.25 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -23799,6 +21460,7 @@
 		)
 		(property "Value" "GND"
 			(at 95.25 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23973,7 +21635,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ZYxxx")
+		(lib_id "GOST_UGO:D_Zener")
 		(at 68.58 90.17 270)
 		(unit 1)
 		(body_style 1)
@@ -24077,7 +21739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 149.86 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -24101,6 +21763,7 @@
 		)
 		(property "Value" "GND"
 			(at 149.86 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24155,7 +21818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 378.46 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -24259,7 +21922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD235")
+		(lib_id "GOST_UGO:Q_NPN")
 		(at 138.43 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -24369,7 +22032,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 63.5 175.26 90)
 		(unit 1)
 		(body_style 1)
@@ -24470,7 +22133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 295.91 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -24653,7 +22316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 254 160.02 180)
 		(unit 1)
 		(body_style 1)
@@ -24757,7 +22420,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 389.89 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -24781,6 +22444,7 @@
 		)
 		(property "Value" "GND"
 			(at 389.89 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24835,7 +22499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 297.18 39.37 180)
 		(unit 1)
 		(body_style 1)
@@ -24939,7 +22603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
+		(lib_id "GOST_UGO:R_Trim")
 		(at 219.71 120.65 90)
 		(unit 1)
 		(body_style 1)
@@ -25044,7 +22708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ZYxxx")
+		(lib_id "GOST_UGO:D_Zener")
 		(at 69.85 133.35 270)
 		(unit 1)
 		(body_style 1)
@@ -25148,7 +22812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "GOST_UGO:C")
 		(at 116.84 207.01 180)
 		(unit 1)
 		(body_style 1)
@@ -25474,7 +23138,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 298.45 241.3 0)
 		(unit 1)
 		(body_style 1)
@@ -25498,6 +23162,7 @@
 		)
 		(property "Value" "GND"
 			(at 298.45 246.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25552,7 +23217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD235")
+		(lib_id "GOST_UGO:Q_NPN")
 		(at 92.71 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -25843,163 +23508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 311.15 195.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea8fa3fd-c7a3-4cee-8adc-d423dae423f2")
-		(property "Reference" "#PWR085"
-			(at 314.96 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В10"
-			(at 309.118 194.564 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 311.15 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b49b436-5d99-4ba3-90b8-efe3e222b96f")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 91.44 160.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0b8239d-e904-4f8e-9f10-45110d885a26")
-		(property "Reference" "#PWR0101"
-			(at 95.25 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "В12"
-			(at 89.154 159.004 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 91.44 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b5935ee-4970-4b93-b4e7-5b965e165897")
-		)
-		(instances
-			(project "pulse_oximeter"
-				(path "/96f1e993-e3c5-4f57-a2d8-4500a3da2963"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 219.71 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -26022,6 +23531,7 @@
 		)
 		(property "Value" "GND"
 			(at 219.71 60.452 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26076,7 +23586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 265.43 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -26100,6 +23610,7 @@
 		)
 		(property "Value" "GND"
 			(at 265.43 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26154,7 +23665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ZYxxx")
+		(lib_id "GOST_UGO:D_Zener")
 		(at 71.12 181.61 270)
 		(unit 1)
 		(body_style 1)
@@ -26258,7 +23769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 247.65 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -26282,6 +23793,7 @@
 		)
 		(property "Value" "GND"
 			(at 247.65 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26336,7 +23848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "GOST_UGO:R")
 		(at 62.23 127 90)
 		(unit 1)
 		(body_style 1)
@@ -26437,7 +23949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 55.88 36.83 180)
 		(unit 1)
 		(body_style 1)
@@ -26461,6 +23973,7 @@
 		)
 		(property "Value" "GND"
 			(at 55.88 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26515,7 +24028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "GOST_UGO:GND")
 		(at 116.84 214.63 0)
 		(unit 1)
 		(body_style 1)
@@ -26539,6 +24052,7 @@
 		)
 		(property "Value" "GND"
 			(at 116.84 219.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26711,6 +24225,316 @@
 				)
 			)
 		)
+	)
+	(label "SW_D4"
+		(at 91.44 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16fc34eb-42aa-4955-9211-155d6dab0de2")
+	)
+	(label "ADC_IN"
+		(at 364.49 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61707850-89d8-4613-9405-11261d6e001b")
+	)
+	(label "Д"
+		(at 364.49 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd1db4ab-6cd4-499c-b080-f8e5f29f497a")
+	)
+	(label "SW_D1"
+		(at 91.44 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3b118f3-cdac-46fc-9e7e-816ee7f75703")
+	)
+	(label "Ж"
+		(at 364.49 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78961702-9575-405e-8678-705e6008d6c6")
+	)
+	(label "SW_D3"
+		(at 311.15 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4d0256c-9ca5-4efb-a0e4-7d8798a152d7")
+	)
+	(label "SW_D1"
+		(at 311.15 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77f86a0f-8c60-45df-aacb-59cfdcea79db")
+	)
+	(label "Е"
+		(at 364.49 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2431cfa-57ac-41b1-b8a6-75dfbfeba573")
+	)
+	(label "SW_D4"
+		(at 311.15 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bbc167e-8d5c-4c76-8086-fe9021e582d4")
+	)
+	(label "З"
+		(at 364.49 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d02e124e-86e2-46f2-ba77-8a74ae16bc29")
+	)
+	(label "ADC_IN"
+		(at 262.89 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "612c2361-e770-4b51-92e2-579183b24d1a")
+	)
+	(label "SW_D2"
+		(at 91.44 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b476a4e6-138a-4dae-80d2-2a6810587844")
+	)
+	(label "SW_D2"
+		(at 311.15 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ddc8455-c8b0-450e-8172-ea9eca03a873")
+	)
+	(label "SW_D3"
+		(at 91.44 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d902e150-8d35-46bf-b910-43aaa898446f")
+	)
+	(label "PD_K"
+		(at 166.37 60.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f7fb577-9c69-4a1d-82db-0b0e151f4c01")
+	)
+	(label "PD_A"
+		(at 166.37 68.58 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4db9f42d-b831-4a0b-ab92-e7a2cf394f49")
+	)
+	(label "TIA_OUT"
+		(at 214.63 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "713990f3-e0f1-45b8-8457-05d05e874822")
+	)
+	(label "LPF_OUT"
+		(at 288.29 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d5cb329-1b74-4e18-9a09-c47042e389bf")
+	)
+	(label "NOTCH_OUT"
+		(at 365.76 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd1091d0-5e79-40c4-bc18-2039f01ba063")
+	)
+	(label "HPF_OUT"
+		(at 184.15 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10df35c8-87c6-46cc-a362-9f0f5f736530")
+	)
+	(label "REF1"
+		(at 95.25 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34a9e40c-9d6a-4379-93b2-a3562d622001")
+	)
+	(label "REF2"
+		(at 95.25 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15d273f5-634f-450c-8372-38f2694fa310")
+	)
+	(label "REF3"
+		(at 95.25 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98c28235-2ed6-413f-99be-a0087fbc6773")
+	)
+	(label "REF4"
+		(at 95.25 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4c915d6-c7f3-4a4e-9208-caa0e1441310")
+	)
+	(label "LED1_REF"
+		(at 138.43 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "981c0c3e-c1ba-413a-b6ca-0bf31d296f2f")
+	)
+	(label "LED2_REF"
+		(at 138.43 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2967e9d7-512f-472c-9a6d-d1f48da24dd8")
+	)
+	(label "UART_TX"
+		(at 361.95 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c566ca7-4a77-4500-85f7-81771b222633")
+	)
+	(label "UART_RX"
+		(at 361.95 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f651142-766d-4d7f-9b97-b5087cbee38f")
+	)
+	(label "NRST"
+		(at 313.69 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37a50d5c-f595-41b1-b9da-8cd388ab2354")
+	)
+	(label "BTN1"
+		(at 313.69 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a49c89c4-3f11-4fcb-9a63-ecb3f4e6bfa2")
+	)
+	(label "BTN2"
+		(at 313.69 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa46795c-be96-497d-9cea-ded02b18e57e")
 	)
 	(sheet_instances
 		(path "/"

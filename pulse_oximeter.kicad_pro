@@ -649,44 +649,36 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Digital",
-        "pattern": "Г"
+        "netclass": "Analog",
+        "pattern": "/PD_*"
       },
       {
-        "netclass": "Digital",
-        "pattern": "Д"
+        "netclass": "Analog",
+        "pattern": "/TIA_OUT"
       },
       {
-        "netclass": "Digital",
-        "pattern": "Е"
+        "netclass": "Analog",
+        "pattern": "/LPF_OUT"
       },
       {
-        "netclass": "Digital",
-        "pattern": "Ж"
+        "netclass": "Analog",
+        "pattern": "/NOTCH_OUT"
       },
       {
-        "netclass": "Digital",
-        "pattern": "З"
+        "netclass": "Analog",
+        "pattern": "/HPF_OUT"
       },
       {
-        "netclass": "Digital",
-        "pattern": "В2"
+        "netclass": "Analog",
+        "pattern": "/ADC_IN"
       },
       {
-        "netclass": "Digital",
-        "pattern": "В10"
+        "netclass": "Analog",
+        "pattern": "/REF*"
       },
       {
-        "netclass": "Digital",
-        "pattern": "В12"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "В13"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "Net-(DD*"
+        "netclass": "Analog",
+        "pattern": "/LED*"
       },
       {
         "netclass": "Analog",
@@ -711,6 +703,42 @@
       {
         "netclass": "Analog",
         "pattern": "Net-(C*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/SW_D*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/UART_*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/NRST"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/BTN*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/Д"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/Е"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/Ж"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/З"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(DD*"
       }
     ]
   },
