@@ -6,6 +6,7 @@
 #    3. Gerber + сверловка   -> output/gerber/*, output/pulse_oximeter_gerber.zip
 #    4. BOM (перечень)       -> output/pulse_oximeter_BOM.csv
 #    5. PDF схемы            -> output/pulse_oximeter_schematic.pdf (+ ч/б для печати)
+#    6. 3D-модель платы      -> output/pulse_oximeter.step
 #
 #  Запуск из любой папки:   ./scripts/build.sh
 #  Другой kicad-cli:        KICAD_CLI=/путь/kicad-cli ./scripts/build.sh
@@ -63,17 +64,17 @@ fail() { echo "  !! $1"; STATUS=1; }
 echo "kicad-cli: $CLI ($("$CLI" version))"
 
 # --- 1. ERC ------------------------------------------------------------------
-step "1/5 ERC — проверка электрических правил схемы"
+step "1/6 ERC — проверка электрических правил схемы"
 "$CLI" sch erc --severity-all --format report -o "$REP/erc.rpt" "$SCH" || fail "ERC не выполнен"
 summary "$REP/erc.rpt" || fail "ERC: есть ошибки"
 
 # --- 2. DRC ------------------------------------------------------------------
-step "2/5 DRC — проверка правил проектирования платы"
+step "2/6 DRC — проверка правил проектирования платы"
 "$CLI" pcb drc --schematic-parity --severity-all --format report -o "$REP/drc.rpt" "$PCB" || fail "DRC не выполнен"
 summary "$REP/drc.rpt" || fail "DRC: есть ошибки"
 
 # --- 3. Gerber + сверловка ---------------------------------------------------
-step "3/5 Gerber и файлы сверловки"
+step "3/6 Gerber и файлы сверловки"
 "$CLI" pcb export gerbers \
        --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" \
        --subtract-soldermask --no-x2 -o "$GBR/" "$PCB" || fail "Gerber"
@@ -87,7 +88,7 @@ else
 fi
 
 # --- 4. BOM ------------------------------------------------------------------
-step "4/5 BOM — перечень элементов"
+step "4/6 BOM — перечень элементов"
 "$CLI" sch export bom \
        --fields 'Reference,Value,Footprint,${QUANTITY},Manufacturer,Manufacturer_Part_Number' \
        --labels 'Поз. обозначение,Номинал/тип,Корпус,Кол.,Производитель,Партномер' \
@@ -96,9 +97,14 @@ step "4/5 BOM — перечень элементов"
        -o "$OUT/${PROJECT}_BOM.csv" "$SCH" || fail "BOM"
 
 # --- 5. PDF схемы ------------------------------------------------------------
-step "5/5 PDF схемы"
+step "5/6 PDF схемы"
 "$CLI" sch export pdf -o "$OUT/${PROJECT}_schematic.pdf" "$SCH" || fail "PDF (цвет)"
 "$CLI" sch export pdf --black-and-white -o "$OUT/${PROJECT}_schematic_bw.pdf" "$SCH" || fail "PDF (ч/б)"
+
+# --- 6. STEP -----------------------------------------------------------------
+step "6/6 3D-модель платы (STEP)"
+"$CLI" pcb export step --subst-models -f -o "$OUT/${PROJECT}.step" "$PCB" >/dev/null 2>&1 \
+    && echo "  $OUT/${PROJECT}.step" || echo "  (STEP не выгружен — не найдены 3D-модели; на результат не влияет)"
 
 # --- итог --------------------------------------------------------------------
 step "Итог"

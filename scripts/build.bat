@@ -6,6 +6,7 @@ rem    2. DRC платы            -> output\reports\drc.rpt   (+ сверка 
 rem    3. Gerber + сверловка   -> output\gerber\*, output\pulse_oximeter_gerber.zip
 rem    4. BOM (перечень)       -> output\pulse_oximeter_BOM.csv
 rem    5. PDF схемы            -> output\pulse_oximeter_schematic.pdf (+ ч/б)
+rem    6. 3D-модель платы      -> output\pulse_oximeter.step
 rem
 rem  Запуск:  scripts\build.bat        (двойной щелчок тоже работает)
 rem  Другой kicad-cli:  set KICAD_CLI=C:\путь\kicad-cli.exe
@@ -51,21 +52,21 @@ echo kicad-cli: "%CLI%"
 
 rem --- 1. ERC ---------------------------------------------------------------------
 echo.
-echo === 1/5 ERC — проверка электрических правил схемы ===
+echo === 1/6 ERC — проверка электрических правил схемы ===
 "%CLI%" sch erc --severity-all --format report -o "%REP%\erc.rpt" "%SCH%"
 if errorlevel 1 (set "STATUS=1" & echo   !! ERC не выполнен)
 call :summary "%REP%\erc.rpt" ERC
 
 rem --- 2. DRC ---------------------------------------------------------------------
 echo.
-echo === 2/5 DRC — проверка правил проектирования платы ===
+echo === 2/6 DRC — проверка правил проектирования платы ===
 "%CLI%" pcb drc --schematic-parity --severity-all --format report -o "%REP%\drc.rpt" "%PCB%"
 if errorlevel 1 (set "STATUS=1" & echo   !! DRC не выполнен)
 call :summary "%REP%\drc.rpt" DRC
 
 rem --- 3. Gerber + сверловка ------------------------------------------------------
 echo.
-echo === 3/5 Gerber и файлы сверловки ===
+echo === 3/6 Gerber и файлы сверловки ===
 "%CLI%" pcb export gerbers --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" --subtract-soldermask --no-x2 -o "%GBR%\\" "%PCB%"
 if errorlevel 1 (set "STATUS=1" & echo   !! Gerber)
 "%CLI%" pcb export drill --format excellon --excellon-units mm --excellon-separate-th --generate-map --map-format pdf -o "%GBR%\\" "%PCB%"
@@ -75,17 +76,23 @@ if exist "%OUT%\%PROJECT%_gerber.zip" echo   архив: %OUT%\%PROJECT%_gerber.
 
 rem --- 4. BOM ---------------------------------------------------------------------
 echo.
-echo === 4/5 BOM — перечень элементов ===
+echo === 4/6 BOM — перечень элементов ===
 "%CLI%" sch export bom --fields "Reference,Value,Footprint,${QUANTITY},Manufacturer,Manufacturer_Part_Number" --labels "Поз. обозначение,Номинал/тип,Корпус,Кол.,Производитель,Партномер" --group-by "Value,Footprint,Manufacturer_Part_Number" --sort-field "Reference" --ref-range-delimiter "-" --exclude-dnp -o "%OUT%\%PROJECT%_BOM.csv" "%SCH%"
 if errorlevel 1 (set "STATUS=1" & echo   !! BOM)
 
 rem --- 5. PDF схемы ---------------------------------------------------------------
 echo.
-echo === 5/5 PDF схемы ===
+echo === 5/6 PDF схемы ===
 "%CLI%" sch export pdf -o "%OUT%\%PROJECT%_schematic.pdf" "%SCH%"
 if errorlevel 1 (set "STATUS=1" & echo   !! PDF цвет)
 "%CLI%" sch export pdf --black-and-white -o "%OUT%\%PROJECT%_schematic_bw.pdf" "%SCH%"
 if errorlevel 1 (set "STATUS=1" & echo   !! PDF ч/б)
+
+rem --- 6. STEP ---------------------------------------------------------------------
+echo.
+echo === 6/6 3D-модель платы (STEP) ===
+"%CLI%" pcb export step --subst-models -f -o "%OUT%\%PROJECT%.step" "%PCB%" >nul 2>&1
+if exist "%OUT%\%PROJECT%.step" (echo   %OUT%\%PROJECT%.step) else (echo   STEP не выгружен — на результат не влияет)
 
 rem --- итог -----------------------------------------------------------------------
 echo.
